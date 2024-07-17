@@ -1,4 +1,4 @@
- static toEmoji(str) {
+ function toEmoji(str) {
     if (str === undefined || str === null || str === '') {
       return str;
     }
@@ -29,7 +29,7 @@
    * @param {string|number} str - The string with emojis to be converted to numbers.
    * @returns {string}
    */
-  static fromEmoji(str) {
+  function fromEmoji(str) {
     if (str === undefined || str === null || str === '') {
       return str;
     }
